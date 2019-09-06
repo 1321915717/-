@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "zyc的blog",
+  "usingComponents": {
+    "uni-segmented-control": "/components/uni-segmented-control/uni-segmented-control",
+    "you-scroll": "/components/you-scroll"
+  }
+}

@@ -1,0 +1,99 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "zyc的blog"
+			}
+		}
+	    ,{
+            "path" : "pages/options/options",
+            "style" : {
+				"navigationBarTitleText": "专题"
+			}
+        }
+        ,{
+            "path" : "pages/me/me",
+            "style" : {
+				"navigationBarTitleText": "个人"
+			}
+        }
+        ,{
+            "path" : "pages/article/article",
+            "style" : {
+				"navigationBarTitleText": "文章"
+				
+			}
+        }
+        ,{
+            "path" : "pages/articles/articles",
+            "style" : {
+				"navigationBarTitleText": "分类"
+				
+			}
+        }
+        ,{
+            "path" : "pages/shoucang/shoucang",
+            "style" : {
+				"navigationBarTitleText": "我的收藏"
+				
+			}
+        }
+        
+        ,{
+            "path" : "pages/yijian/yijian",
+            "style" : {
+				"navigationBarTitleText": "意见反馈"
+				
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "zyc的blog",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"bfbfbf",
+		"selectedColor":"#515151",
+		"borderStyle":"black",
+		"backgroundColor":"#ffffff",
+		"list":[
+			
+			{
+				
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/img/shouqian.png",
+				"selectedIconPath":"static/img/shouhou.png"
+			},
+			{
+				
+				"pagePath":"pages/options/options",
+				"text":"专题",
+				"iconPath":"static/img/huatiqian.png",
+				"selectedIconPath":"static/img/huatihou.png"
+			},
+			{
+				
+				"pagePath":"pages/me/me",
+				"text":"个人",
+				"iconPath":"static/img/meqian.png",
+				"selectedIconPath":"static/img/mehou.png"
+			}
+			
+		]
+		
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

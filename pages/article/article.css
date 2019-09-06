@@ -1,0 +1,224 @@
+.page{
+	 width: 750upx;
+	height: 100%;
+	background-color: #FFFFFF;
+	position: absolute;
+	
+	
+}
+.article-title{
+	font-size: 20px;
+	padding-left: 50upx;
+	padding-right: 50upx;
+}
+.blog-info{
+	padding-top: 10upx;
+	padding-bottom: 10upx;
+	padding-left: 50upx;
+	padding-right: 50upx;
+	
+}
+.info-time{
+	font-size: 12px;
+	color:#A9A9A9;
+	display: inline-block;
+	margin-left: 10upx;
+}
+
+.info-image{
+	width: 30upx;
+	height: 30upx;
+	margin-right: 5upx;
+	vertical-align: middle;
+	
+}
+.line{
+	margin-left: 50upx;
+	margin-right: 50upx;
+	border-bottom: 1px solid #A9A9A9;
+}
+.options-tab{
+	width: 100%;
+	white-space: nowrap;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	padding-left: 50upx;
+	padding-right: 50upx;
+}
+.small-tab{
+	display: inline-block;
+	
+    margin: 0 10px 8px 0;
+    background: #f4f4f4;
+    border-radius: 100px;
+    padding: 0 12px;
+    font-size: 12px;
+    border: 1px solid #f4f4f4;
+	
+	margin: 20upx 10upx;
+}
+.content{
+	padding-left: 50upx;
+	padding-right: 50upx;
+	
+}
+.pinglun{
+	padding-left: 50upx;
+	padding-right: 50upx;
+	
+}
+.logo-pinglun{
+	margin-top: 20upx;
+	width: 30upx;
+	height: 30upx;
+	
+	vertical-align: auto;
+}
+.pinglun-count{
+	font-size: 14px;
+	font-weight: bold;
+	
+	
+}
+.count-logo{
+	width: 30upx;
+	height: 30upx;
+	display: inline-block;
+	
+	
+	
+}
+.counts{
+	display: inline-block;
+	margin-left: 20upx;
+}
+
+.user-logo{
+	width: 80upx;
+	height: 80upx;
+		display: inline-block;
+	
+}
+.user-img{
+	width: 60upx;
+	height: 60upx;	
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.username{
+	display: inline-block;
+	margin-left: 10upx;
+	font-size: 12px;
+	width: 500upx;
+	
+}
+.user-pinglun{
+	margin-top: 20upx;
+	border-bottom: 1px solid #A9A9A9;
+}
+.user-content{
+	padding-left: 90upx;
+	margin-top:5upx ;
+	font-size: 12px;
+	font-weight: bold;
+	
+	
+}
+
+
+.time{
+	
+	
+}
+.deletetext{
+color: #006A00;
+
+	
+}
+.search-ico{
+	width: 40upx;
+	height: 40upx;
+	
+}
+.search-text{
+		font-size: 14px;
+		background-color: #eaeaea;
+		height: 60upx;
+		width: 650upx;
+}
+.search-block{
+	width: 70%;
+	display: flex;
+	flex-direction: row;
+	padding: 0upx 10upx;
+	background-color: #f8f8f8;
+	
+	
+	/* /固定搜索栏
+	position: fixed;
+	z-index:1000; */
+	
+}
+.search-ico-wapper{
+	padding-right:20upx ;
+	padding-left:20upx ;
+	background-color: #eaeaea;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+.me-img{
+	width: 50upx;
+	height: 50upx;	
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.add-pinglun{
+		display: flex;
+		flex-direction: row;
+}
+.add-button{
+	height: 60upx;
+	
+}
+.add-pinglun{
+	padding: 20upx 0upx;
+	box-shadow: 3px 2px 10px #dedede; 
+	position: fixed;
+	z-index: 10000;
+	bottom: 0;
+	width: 100%;
+	background-color: #FFFFFF;
+	
+}
+.buttom{
+	margin-bottom: 70upx;
+	height: 40upx;
+}
+.content{
+	width: 650upx;
+	margin: 0 auto;
+}
+.textbox-Like{
+	
+	display: flex;
+	justify-content: center;
+	
+}
+.textLike{
+	background: #008800;
+	color:#FFFFFF;
+	font-size: 12px;
+	height: 50upx;
+	margin: 10upx;
+	border: 1px solid #008800;
+	width: 50px;
+	line-height: 50upx;
+	text-align: center;
+	border-radius: 5px;
+}
+
+	
+

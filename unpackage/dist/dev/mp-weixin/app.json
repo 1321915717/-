@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/options/options",
+    "pages/me/me",
+    "pages/article/article",
+    "pages/articles/articles",
+    "pages/shoucang/shoucang",
+    "pages/yijian/yijian"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "zyc的blog",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "bfbfbf",
+    "selectedColor": "#515151",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/img/shouqian.png",
+        "selectedIconPath": "static/img/shouhou.png"
+      },
+      {
+        "pagePath": "pages/options/options",
+        "text": "专题",
+        "iconPath": "static/img/huatiqian.png",
+        "selectedIconPath": "static/img/huatihou.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "个人",
+        "iconPath": "static/img/meqian.png",
+        "selectedIconPath": "static/img/mehou.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

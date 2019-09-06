@@ -1,0 +1,48 @@
+.page{
+		 width: 100%;
+		 height: 100%;
+		 background-color: #f7f7f7;
+		 position: absolute;
+	 }
+.options{
+	
+	width: 80%;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	padding: 20upx 30upx;
+	border-radius: 30upx;
+	margin-top: 50upx;
+	
+	
+}
+.title{
+			font-size: 13px;
+			margin-bottom: 20upx;
+		 
+	 }
+.detils{
+	
+	font-size: 12px;
+	color: #A9A9A9;
+}
+.yuandian{
+	height: 20upx;
+	width: 20upx;
+	border-radius: 50%;
+	background-color:#48D1CC;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 15upx;
+}
+.image{
+	width: 690upx;
+	height: 300upx;
+	background-color: aqua;
+	
+}
+.img{
+	width: 100%;
+	height: 300upx;
+	
+}
+	

@@ -1,0 +1,41 @@
+.aa{
+	height: 1200rpx;
+}
+.blog-content{
+		width: 100%;
+		background-color: #FFFFFF;
+		padding-left: 30rpx;
+		padding-right: 30rpx;
+		margin-bottom: 8rpx;
+}
+.article-title{
+	font-size: 13px;
+	padding: 10rpx;
+	margin-bottom: 10rpx;
+}
+.image{
+	width: 690rpx;
+	height: 300rpx;
+	background-color: aqua;
+}
+.img{
+	width: 100%;
+	height: 300rpx;
+}
+.blog-info{
+	padding-top: 10rpx;
+	padding-bottom: 10rpx;
+}
+.info-time{
+	font-size: 12px;
+	color:#A9A9A9;
+	display: inline-block;
+	margin-left: 10rpx;
+}
+.info-image{
+	width: 30rpx;
+	height: 30rpx;
+	margin-right: 5rpx;
+	vertical-align: middle;
+}
+
